@@ -1,0 +1,45 @@
+.shloka-component-holder{
+     width: 100vw;
+    height: auto;
+    color: #FF6000;
+    padding: 1.3rem 0;
+}
+
+.shloka-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shloka-heading, .shloka-artharth{
+ padding: 1rem 1.2rem;
+ text-align: center;
+ line-height: 2rem;
+ font-size: 1rem;
+}
+
+.shloka-image{
+    width: 80vw;
+    box-sizing:border-box;
+    margin: auto;
+    border: solid 4px orange;
+}
+
+.shloka-image img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.shloka-speaker{
+    border-radius: 15px;
+    color: white;
+    background: #FF6000;
+    padding: 1.01rem;
+}
+
+@media only screen and (min-width: 450px){
+    .shloka-heading, .shloka-artharth{
+        font-size: 1.3rem;
+       }
+}

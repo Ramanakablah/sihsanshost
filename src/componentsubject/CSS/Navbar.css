@@ -1,0 +1,53 @@
+.n-navbar{
+    height: 4rem;
+    width: 100vw;
+    color: white;
+    background-color: #FF6000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.8rem;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.n-sidebar{
+    background-color: #FF6D00;
+    height: calc(100vh - 4rem);
+    position: absolute;
+    top: 4rem;
+    right: 0;
+    z-index: 2;
+    transition: width ,0.5s;
+    opacity: 0.78;
+    color: white;
+    overflow: hidden;
+    position: fixed;
+}
+.sidebar-menu{
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+.slide-menu-item{
+    margin: 0.5rem;
+    font-weight: 600px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 1.2rem;
+}
+
+.slide-menu-item:hover{
+   background-color: #FF8500;
+   box-shadow: 0px 2px 10px white, 0px -2px 10px #FF8500;
+}
+
+.n-side-logo h1{
+    font-size: 2.5rem;
+    border-bottom: solid 2px white;
+}
+.n-sidebar i, .n-navbar i{
+    margin: 0px 20px;
+    cursor: pointer; 
+}

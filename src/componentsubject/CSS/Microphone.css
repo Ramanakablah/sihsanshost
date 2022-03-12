@@ -1,0 +1,54 @@
+.Microphone-component-holder{
+    width: 100vw;
+    height: auto;
+    background-color:#ffeab4 ;
+    /* padding: 1.2rem; */
+}
+
+.mic-body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mic{
+    font-size: 5rem;
+    color:#FF4800 ;
+    border: solid 5px #FF4800;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.mic-holder{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+    flex-basis: 350px;
+}
+.mic-tester{
+    flex-grow: 1;
+    flex-basis: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#FF8500 ;
+    padding: 1rem 0.5rem;
+}
+
+.mic-directions{
+    font-size: 2rem;
+}
+.texts{
+    border-top: solid 2px #FF4800;
+    padding: 1rem 2rem;
+    color: #ff2600;
+    font-size: 1.2rem;
+    font-weight: 600;
+}

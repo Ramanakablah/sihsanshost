@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./componentsubject/JSX/Navbar"
+import Microphone from "./componentsubject/JSX/Microphone"
+import Shlokaofday from './componentsubject/JSX/Shlokaofday'
+import Profile from './componentsubject/JSX/Profile'
+import AI from './componentsubject/JSX/AI'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Navbar/>
+     <Microphone/>
+     <Shlokaofday/>
+     <Profile/>
+     <AI/>
+    </>
   );
 }
 
